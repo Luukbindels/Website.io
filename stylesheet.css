@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    margin: 0 10%;
+}
+
+.vakken {
+    size: 80%;
+}
+
+.start {
+    max-width: 100%;
+    margin: 0 15%;
+    
+}
+
+
+.tekstvak {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    padding: 10px;
+}
+
+
+.tekst {
+    display: flex;
+    justify-content: center; 
+
+}
+
+.competenties {
+    size: 50px;
+    
+}
+
+.comp {
+    -ms-flex: 65%;  
+    flex: 65%;
+    max-width: 65%;
+    justify-content: center;
+    align-content: center;
+    background-color: lightgray;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 5em;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    display: inline;
+    padding-left: 20%;
+}
+
+nav {
+    display: flex;
+    padding-bottom: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    width: 150px;
+    padding: 1em;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+}
+
+nav ul ul a:hover {
+    background-color: lightgray;
+}
+
+nav ul ul li {
+    float: none;
+    
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+body {
+	
+background-color: #FFFFFF;
+}
+
+.msi {
+  width: 20%;
+  background-color: #FFFFFF;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+}
+
+footer {
+    display: flex;
+    border-top: 1px solid black;
+    padding-bottom: 3em;
+    
+}
+
+#streep {
+    border-bottom: 1px solid black;
+}
+
+#elkfoto {
+    height: 75%;
+}
+
+@media screen and (max-width: 600px ) {
+.tekstvak {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+}
+
+
+.column1 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+  
+
+  .column1 img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column1 img:hover {
+    opacity: 1;
+  }
+  
+
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+#klein {
+    height: 65%;
+    width: 65%;
+}
+
+
+
